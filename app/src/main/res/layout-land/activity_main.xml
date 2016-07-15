@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity">
 
@@ -16,13 +15,13 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/app_bar"
-        android:baselineAligned="false">
+        app:layout_constraintTop_toBottomOf="@+id/app_bar">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -33,21 +32,22 @@
 
             <ImageView
                 android:id="@+id/logo"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="@dimen/andela_logo"
+                android:layout_height="@dimen/andela_logo"
+                android:contentDescription="@string/andela_logo"
                 app:srcCompat="@drawable/andela" />
 
             <TextView
                 android:id="@+id/welcome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="18dp"
+                android:layout_margin="@dimen/layout_padding"
                 android:fontFamily="@font/ofont"
                 android:text="@string/welcome"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
                 android:textColor="@android:color/white"
-                android:textSize="30sp"
+                android:textSize="@dimen/name_tv_size"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -55,7 +55,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="24dp"
+            android:layout_margin="@dimen/layout_padding"
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="vertical">
@@ -69,7 +69,7 @@
                 android:onClick="Onclick"
                 android:text="@string/txt_alc_connect"
                 android:textColor="@android:color/white"
-                android:textSize="30sp"
+                android:textSize="@dimen/name_tv_size"
                 android:textStyle="bold"
                 android:typeface="serif" />
 
@@ -77,23 +77,15 @@
                 android:id="@+id/btn_profile"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="@dimen/layout_padding"
                 android:background="@drawable/btn_bg"
                 android:fontFamily="@font/ofont"
                 android:onClick="Onclick"
                 android:text="@string/txt_profile"
                 android:textColor="@android:color/white"
-                android:textSize="30sp"
+                android:textSize="@dimen/name_tv_size"
                 android:textStyle="bold"
                 android:typeface="serif" />
         </LinearLayout>
     </LinearLayout>
-
-
-
-
-
-
-
-
 </android.support.constraint.ConstraintLayout>

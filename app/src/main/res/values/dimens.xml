@@ -1,3 +1,10 @@
 <resources>
     <dimen name="fab_margin">10dp</dimen>
+    <dimen name="layout_padding">30dp</dimen>
+    <dimen name="name_tv_size">30sp</dimen>
+    <dimen name="profile_img_size">150dp</dimen>
+    <dimen name="tv_size">25sp</dimen>
+    <dimen name="view_hight">1dp</dimen>
+    <dimen name="profile_img_border">2dp</dimen>
+    <dimen name="andela_logo">100dp</dimen>
 </resources>

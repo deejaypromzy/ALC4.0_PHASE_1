@@ -3,4 +3,11 @@
     <string name="txt_profile">Profile</string>
     <string name="txt_alc_connect">About ALC</string>
     <string name="welcome">Welcome to ALC 4.0</string>
+    <string name="andela_logo">Andela Logo</string>
+    <string name="name">OPPONG AGYEI ENOCH</string>
+    <string name="track">Track : \t  Android</string>
+    <string name="country">Country : \t Ghana</string>
+    <string name="myemail">Email : \toppongagyeienoch@gmail.com</string>
+    <string name="tel">Phone Number : \t +233240741137</string>
+    <string name="slack_username">Slack Username : \t @deejaypromzy</string>
 </resources>
