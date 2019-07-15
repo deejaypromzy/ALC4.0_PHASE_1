@@ -27,7 +27,7 @@ android:fitsSystemWindows="true"
             android:layout_width="@dimen/profile_img_size"
             android:layout_height="@dimen/profile_img_size"
             android:src="@drawable/profile_pic"
-            app:civ_border_color="#FFFFFF"
+            app:civ_border_color="@android:color/white"
             app:civ_border_overlay="true"
             app:civ_border_width="@dimen/profile_img_border" />
 

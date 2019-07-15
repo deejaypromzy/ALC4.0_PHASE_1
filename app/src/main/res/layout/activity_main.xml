@@ -24,7 +24,7 @@
             android:id="@+id/logo"
             android:layout_width="@dimen/andela_logo"
             android:layout_height="@dimen/andela_logo"
-            android:contentDescription="@string/andela_logo"
+            android:contentDescription="@string/andela"
             app:srcCompat="@drawable/andela" />
 
         <TextView
